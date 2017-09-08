@@ -24,42 +24,34 @@ unless otherwise noted. Please see the [LICENSE
 file](https://github.com/edx/eslint-config-edx/blob/master/LICENSE) for
 details.
 
-## Dependencies
-
-[ESLint](http://eslint.org) is required to use either config, and NodeJS
-4.0 or greater is required to use ESLint. Both configs are tested with
-the Node version bundled in the [most recent edX devstack
-setup](http://edx.readthedocs.io/projects/edx-installing-configuring-and-running/en/latest/installation/devstack/install_devstack.html).
-
 ## Usage
 
-To begin using the edX ESLint configs in a codebase, install this
+To begin using the edX Stylelint configs in a codebase, install this
 package from npm:
 
     npm install --save-dev stylelint-config-edx
 
-Then, configure your project's ESLint config to extend
+Then, configure your project's Stylelint config to extend
 `stylelint-config-edx` (see the ESLint docs
 on [Using a Shareable
-Config](http://eslint.org/docs/developer-guide/shareable-configs#using-a-shareable-config)).
-If you do not plan on adding custom rules beyond those in
-`eslint-config-edx` to your project, the easiest place to configure this
-is probably in your `package.json`:
+Config](https://stylelint.io/user-guide/configuration/#extends)).
 
-    "devDependencies": {
-        "eslint-config-edx": "^2.0.0"
-    },
-    "eslintConfig": {
-        "extends": "eslint-config-edx"
-    }
+The simplest option is to add the following to a file
+`stylelint.config.js` at the root of your repository:
 
-If you plan on adding additional customization, you can [configure your
-project with an `.eslintrc.js`/`.eslintrc.json`
-file](http://eslint.org/docs/user-guide/configuring#configuration-file-formats).
+    module.exports = {
+      extends: 'stylelint-config-edx'
+    };
 
-## The Configs
 
-More documentation on the rules specified by each config is available in:
+## Sass Style Guide
 
-- [the README for `eslint-config-edx`](https://github.com/edx/eslint-config-edx/blob/master/packages/eslint-config-edx/README.md)
-- [the README for `eslint-config-edx-es5`](https://github.com/edx/eslint-config-edx/blob/master/packages/eslint-config-edx-es5/README.md)
+For the most part, edX follows the recommended SCSS rules defined
+by the [stylelint-config-recommended-scss package](https://www.npmjs.com/package/stylelint-config-recommended-scss).
+
+The only changes are that the following rules have been disabled:
+
+ - [function-comma-newline-after](https://stylelint.io/user-guide/rules/function-comma-newline-after/)
+ - [function-parentheses-newline-inside](https://stylelint.io/user-guide/rules/function-parentheses-newline-inside/)
+ - [max-empty-lines](https://stylelint.io/user-guide/rules/max-empty-lines/)
+ - [number-leading-zero](https://stylelint.io/user-guide/rules/number-leading-zero/)
