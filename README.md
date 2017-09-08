@@ -55,3 +55,4 @@ The only changes are that the following rules have been disabled:
  - [function-parentheses-newline-inside](https://stylelint.io/user-guide/rules/function-parentheses-newline-inside/)
  - [max-empty-lines](https://stylelint.io/user-guide/rules/max-empty-lines/)
  - [number-leading-zero](https://stylelint.io/user-guide/rules/number-leading-zero/)
+ - [selector-list-comma-newline-after](https://stylelint.io/user-guide/rules/selector-list-comma-newline-after/)
