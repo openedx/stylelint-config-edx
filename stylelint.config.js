@@ -4,7 +4,5 @@ module.exports = {
     'function-comma-newline-after': null,
     'function-parentheses-newline-inside': null,
     'max-empty-lines': null,
-    'number-leading-zero': null,
-    'selector-list-comma-newline-after': null,
   },
 };
