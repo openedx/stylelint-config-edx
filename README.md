@@ -29,7 +29,7 @@ details.
 To begin using the edX Stylelint configs in a codebase, install this
 package from npm:
 
-    npm install --save-dev stylelint-config-edx
+    npm install --save-dev @edx/stylelint-config-edx
 
 Then, configure your project's Stylelint config to extend
 `stylelint-config-edx` (see the ESLint docs
@@ -40,7 +40,7 @@ The simplest option is to add the following to a file
 `stylelint.config.js` at the root of your repository:
 
     module.exports = {
-      extends: 'stylelint-config-edx'
+      extends: '@edx/stylelint-config-edx'
     };
 
 
@@ -54,5 +54,3 @@ The only changes are that the following rules have been disabled:
  - [function-comma-newline-after](https://stylelint.io/user-guide/rules/function-comma-newline-after/)
  - [function-parentheses-newline-inside](https://stylelint.io/user-guide/rules/function-parentheses-newline-inside/)
  - [max-empty-lines](https://stylelint.io/user-guide/rules/max-empty-lines/)
- - [number-leading-zero](https://stylelint.io/user-guide/rules/number-leading-zero/)
- - [selector-list-comma-newline-after](https://stylelint.io/user-guide/rules/selector-list-comma-newline-after/)
