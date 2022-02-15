@@ -1,6 +1,6 @@
 {
   "name": "@edx/stylelint-config-edx",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Stylelint configs for edX Sass files.",
   "license": "Apache-2.0",
   "repository": {
@@ -16,10 +16,10 @@
   ],
   "homepage": "https://github.com/edx/edx-stylelint-config-edx#readme",
   "dependencies": {
-    "stylelint": "^9.9.0",
-    "stylelint-config-recommended-scss": "^3.2.0",
-    "stylelint-config-standard": "^18.2.0",
-    "stylelint-scss": "^3.4.1"
+    "stylelint": "^14.5.0",
+    "stylelint-config-recommended-scss": "^5.0.2",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-scss": "^4.1.0"
   },
   "devDependencies": {
     "eslint-config-edx": "^4.0.4"
