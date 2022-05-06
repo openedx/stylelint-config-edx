@@ -1,7 +1,7 @@
 module.exports = {
-  extends: 'eslint-config-edx',
+  extends: '@edx/eslint-config',
   root: true,
   settings: {
     'import/resolver': 'webpack',
-  }
+  },
 };

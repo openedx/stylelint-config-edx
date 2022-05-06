@@ -21,8 +21,7 @@ the rules defined by the edX development community.
 
 The code in this repository is released under the Apache 2.0 license
 unless otherwise noted. Please see the [LICENSE
-file](https://github.com/edx/eslint-config-edx/blob/master/LICENSE) for
-details.
+file](https://github.com/openedx/stylelint-config-edx/blob/master/LICENSE) for details.
 
 ## Usage
 
