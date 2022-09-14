@@ -5,7 +5,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edx/stylelint-config-edx.git"
+    "url": "git+https://github.com/openedx/stylelint-config-edx.git"
   },
   "keywords": [
     "edx",
@@ -14,7 +14,7 @@
     "stylelint",
     "stylelint-config"
   ],
-  "homepage": "https://github.com/edx/edx-stylelint-config-edx#readme",
+  "homepage": "https://github.com/openedx/edx-stylelint-config-edx#readme",
   "dependencies": {
     "stylelint": "^14.5.0",
     "stylelint-config-recommended-scss": "^5.0.2",

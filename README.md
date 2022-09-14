@@ -1,5 +1,5 @@
 # edX Stylelint configs
-[![Build Status](https://github.com/edx/stylelint-config-edx/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/edx/stylelint-config-edx/actions?query=workflow%3A%22Node+CI%22)
+[![Build Status](https://github.com/openedx/stylelint-config-edx/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/openedx/stylelint-config-edx/actions?query=workflow%3A%22Node+CI%22)
 
 Stylelint configs for edX Sass files.
 
