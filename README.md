@@ -1,15 +1,18 @@
 # edX Stylelint configs
 [![Build Status](https://github.com/openedx/stylelint-config-edx/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/openedx/stylelint-config-edx/actions?query=workflow%3A%22Node+CI%22)
 
+# Purpose
 Stylelint configs for edX Sass files.
 
 ## Table of Contents
 
-1. [Overview](#overview)
-2. [License](#license)
-3. [Dependencies](#dependencies)
-4. [Usage](#usage)
-5. [The Configs](#the-configs)
+- [edX Stylelint configs](#edx-stylelint-configs)
+- [Purpose](#purpose)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [License](#license)
+  - [Usage](#usage)
+  - [Sass Style Guide](#sass-style-guide)
 
 ## Overview
 
