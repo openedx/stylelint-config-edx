@@ -1,12 +1,12 @@
-# edX Stylelint configs
+# Open edX Stylelint configs
 [![Build Status](https://github.com/openedx/stylelint-config-edx/workflows/Node%20CI/badge.svg?branch=master)](https://github.com/openedx/stylelint-config-edx/actions?query=workflow%3A%22Node+CI%22)
 
 # Purpose
-Stylelint configs for edX Sass files.
+Stylelint configs for Open edX Sass files.
 
 ## Table of Contents
 
-- [edX Stylelint configs](#edx-stylelint-configs)
+- [Open edX Stylelint configs](#open-edx-stylelint-configs)
 - [Purpose](#purpose)
   - [Table of Contents](#table-of-contents)
   - [Overview](#overview)
@@ -16,9 +16,9 @@ Stylelint configs for edX Sass files.
 
 ## Overview
 
-In order to standardize and enforce edX's Sass coding style across
-multiple codebases, edX has adopted Stylelint. This package provides
-the rules defined by the edX development community.
+In order to standardize and enforce Open edX's Sass coding style across
+multiple codebases, Open edX has adopted Stylelint. This package provides
+the rules defined by the Open edX development community.
 
 ## License
 
@@ -28,7 +28,7 @@ file](https://github.com/openedx/stylelint-config-edx/blob/master/LICENSE) for d
 
 ## Usage
 
-To begin using the edX Stylelint configs in a codebase, install this
+To begin using the Open edX Stylelint configs in a codebase, install this
 package from npm:
 
     npm install --save-dev @edx/stylelint-config-edx
@@ -48,7 +48,7 @@ The simplest option is to add the following to a file
 
 ## Sass Style Guide
 
-For the most part, edX follows the recommended SCSS rules defined
+For the most part, Open edX follows the recommended SCSS rules defined
 by the [stylelint-config-recommended-scss package](https://www.npmjs.com/package/stylelint-config-recommended-scss).
 
 The only changes are that the following rules have been disabled:
